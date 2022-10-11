@@ -64,7 +64,7 @@ else:
     print(playing_field[1])
     print(playing_field[2])
     lottery = 1
-for i in range(9):
+for i in range(8):
     if lottery == 2:
         print(f'{name_second_player}, теперь ваш ход')
         choice_of_move(lottery)
@@ -127,3 +127,4 @@ for i in range(9):
         elif playing_field[0][2] == 'X' and playing_field[1][1] == 'X' and playing_field[2][0] == 'X':
             print(f'{name_first_player} Победитель!')
             break
+print('Ничья')
